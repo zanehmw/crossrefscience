@@ -26,7 +26,6 @@
   });
 }
 
-//**I attempted to move the API call into this factory instead of having it in the controller**
 
   // UrlFactory.$inject = ["$http", "$resource", "$scope"];
   // function UrlFactory($http, $resource, $scope){
@@ -54,7 +53,6 @@
 //     }
 // }
 
-//This was the only was I was able to get the data from the API
   IndexControllerFunction.$inject = ["$http"];
   function IndexControllerFunction($http){
     var indexVm = this;
